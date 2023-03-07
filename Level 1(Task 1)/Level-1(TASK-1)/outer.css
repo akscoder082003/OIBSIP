@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.navigation a:before{
+    content: '';
+    position: absolute;
+    top: 39px;
+    left: 4.5px;
+    width: 0;
+    height: 0;
+    background: indianred;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+.navigation a:hover:before{
+    width: 90%;
+}
+.user a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.user a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.section{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.section span{
+    letter-spacing: 5px;
+}
+.section h1{
+    font-size: 3.5em;
+}
+.section a{
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.section a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+img{
+    border: 2px solid #81f4ad;
+    border-radius: 30px;
+}
+.container-main{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-info{
+    color: whitesmoke;
+    padding-top: 550px;
+    font-size: 26px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 40px;
+}
+.container-a{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.helmet{
+    padding-left: 200px;
+}
+.helmet-info{
+    color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.container-b{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+.jacket{
+    padding-right: 200px;
+}
+.jacket-info{
+    color: whitesmoke;
+    padding-right: 200px;
+    padding-left: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.gloves-info{
+    color: whitesmoke;
+    padding-right: 200px;
+    padding-left: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.container-c{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px; 
+}
+.gloves{
+    padding-left: 200px;
+}
+.gloves-info{
+    color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.container-d{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+.rainsuit-info{
+    color: whitesmoke;
+    padding-right: 200px;
+    padding-left: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.rainsuit{
+    padding-right: 200px;
+}
+.container-e{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px; 
+}
+.goggles{
+    padding-left: 200px;
+}
+.goggles-info{
+    color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.container-f{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+.visor-info{
+    color: whitesmoke;
+    padding-right: 200px;
+    padding-left: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.visor{
+    padding-right: 200px;
+}
+.container-g{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px; 
+}
+.side-luggage{
+    padding-left: 200px;
+}
+.side-luggage-info{
+    color: whitesmoke;
+    padding-left: 200px;
+    padding-right: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.container-h{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+.top-luggage-info{
+    color: whitesmoke;
+    padding-right: 200px;
+    padding-left: 80px;
+    font-size: 26px;
+    line-height: 40px;
+}
+.top-luggage{
+    padding-right: 200px;
+}
+.container-i {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("wallhaven-5d5189_1920x1080.png");
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+.foot {
+    background-color: #4f5250;
+    color: white;
+}
